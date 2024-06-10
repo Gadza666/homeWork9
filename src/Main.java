@@ -5,9 +5,9 @@ public class Main {
         System.out.println(" Task 1");
 
         String firstName = "Ivan";
-        String middleName = "Ivanov";
-        String lastName = "Ivanovich";
-        String fullName = (middleName + " " + firstName + " " + lastName);
+        String middleName = "Ivanovich";
+        String lastName = "Ivanov";
+        String fullName = (lastName + " " + firstName + " " + middleName);
         System.out.println("Ф. И. О. сотрудника — " + fullName);
 
         System.out.println(" Task 2");
