@@ -11,8 +11,8 @@ public class Main {
         System.out.println("Ф. И. О. сотрудника — " + fullName);
 
         System.out.println(" Task 2");
-
-        System.out.println("Данные Ф. И. О. сотрудника для заполнения отчета — " + fullName.toUpperCase());
+        fullName = fullName.toUpperCase();
+        System.out.println("Данные Ф. И. О. сотрудника для заполнения отчета — " + fullName);
 
         System.out.println(" Task 3");
 
